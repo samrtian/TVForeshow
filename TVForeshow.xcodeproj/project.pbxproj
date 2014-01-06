@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D86B163187AA6DF00B7F379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B162187AA6DF00B7F379 /* Foundation.framework */; };
+		3D86B165187AA6DF00B7F379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B164187AA6DF00B7F379 /* CoreGraphics.framework */; };
+		3D86B167187AA6DF00B7F379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B166187AA6DF00B7F379 /* UIKit.framework */; };
+		3D86B169187AA6DF00B7F379 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B168187AA6DF00B7F379 /* CoreData.framework */; };
+		3D86B16F187AA6DF00B7F379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D86B16D187AA6DF00B7F379 /* InfoPlist.strings */; };
+		3D86B171187AA6DF00B7F379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B170187AA6DF00B7F379 /* main.m */; };
+		3D86B175187AA6DF00B7F379 /* TVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B174187AA6DF00B7F379 /* TVAppDelegate.m */; };
+		3D86B178187AA6DF00B7F379 /* TVForeshow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B176187AA6DF00B7F379 /* TVForeshow.xcdatamodeld */; };
+		3D86B17A187AA6DF00B7F379 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D86B179187AA6DF00B7F379 /* Images.xcassets */; };
+		3D86B181187AA6DF00B7F379 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B180187AA6DF00B7F379 /* XCTest.framework */; };
+		3D86B182187AA6DF00B7F379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B162187AA6DF00B7F379 /* Foundation.framework */; };
+		3D86B183187AA6DF00B7F379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B166187AA6DF00B7F379 /* UIKit.framework */; };
+		3D86B184187AA6DF00B7F379 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D86B168187AA6DF00B7F379 /* CoreData.framework */; };
+		3D86B18C187AA6DF00B7F379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D86B18A187AA6DF00B7F379 /* InfoPlist.strings */; };
+		3D86B18E187AA6DF00B7F379 /* TVForeshowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B18D187AA6DF00B7F379 /* TVForeshowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D86B185187AA6DF00B7F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D86B157187AA6DF00B7F379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D86B15E187AA6DF00B7F379;
+			remoteInfo = TVForeshow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D86B15F187AA6DF00B7F379 /* TVForeshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVForeshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D86B162187AA6DF00B7F379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D86B164187AA6DF00B7F379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D86B166187AA6DF00B7F379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D86B168187AA6DF00B7F379 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D86B16C187AA6DF00B7F379 /* TVForeshow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVForeshow-Info.plist"; sourceTree = "<group>"; };
+		3D86B16E187AA6DF00B7F379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D86B170187AA6DF00B7F379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D86B172187AA6DF00B7F379 /* TVForeshow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVForeshow-Prefix.pch"; sourceTree = "<group>"; };
+		3D86B173187AA6DF00B7F379 /* TVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAppDelegate.h; sourceTree = "<group>"; };
+		3D86B174187AA6DF00B7F379 /* TVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVAppDelegate.m; sourceTree = "<group>"; };
+		3D86B177187AA6DF00B7F379 /* TVForeshow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVForeshow.xcdatamodel; sourceTree = "<group>"; };
+		3D86B179187AA6DF00B7F379 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D86B17F187AA6DF00B7F379 /* TVForeshowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVForeshowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D86B180187AA6DF00B7F379 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D86B189187AA6DF00B7F379 /* TVForeshowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVForeshowTests-Info.plist"; sourceTree = "<group>"; };
+		3D86B18B187AA6DF00B7F379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D86B18D187AA6DF00B7F379 /* TVForeshowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVForeshowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D86B15C187AA6DF00B7F379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B165187AA6DF00B7F379 /* CoreGraphics.framework in Frameworks */,
+				3D86B169187AA6DF00B7F379 /* CoreData.framework in Frameworks */,
+				3D86B167187AA6DF00B7F379 /* UIKit.framework in Frameworks */,
+				3D86B163187AA6DF00B7F379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86B17C187AA6DF00B7F379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B181187AA6DF00B7F379 /* XCTest.framework in Frameworks */,
+				3D86B184187AA6DF00B7F379 /* CoreData.framework in Frameworks */,
+				3D86B183187AA6DF00B7F379 /* UIKit.framework in Frameworks */,
+				3D86B182187AA6DF00B7F379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D86B156187AA6DF00B7F379 = {
+			isa = PBXGroup;
+			children = (
+				3D86B16A187AA6DF00B7F379 /* TVForeshow */,
+				3D86B187187AA6DF00B7F379 /* TVForeshowTests */,
+				3D86B161187AA6DF00B7F379 /* Frameworks */,
+				3D86B160187AA6DF00B7F379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D86B160187AA6DF00B7F379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B15F187AA6DF00B7F379 /* TVForeshow.app */,
+				3D86B17F187AA6DF00B7F379 /* TVForeshowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D86B161187AA6DF00B7F379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B162187AA6DF00B7F379 /* Foundation.framework */,
+				3D86B164187AA6DF00B7F379 /* CoreGraphics.framework */,
+				3D86B166187AA6DF00B7F379 /* UIKit.framework */,
+				3D86B168187AA6DF00B7F379 /* CoreData.framework */,
+				3D86B180187AA6DF00B7F379 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D86B16A187AA6DF00B7F379 /* TVForeshow */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B173187AA6DF00B7F379 /* TVAppDelegate.h */,
+				3D86B174187AA6DF00B7F379 /* TVAppDelegate.m */,
+				3D86B179187AA6DF00B7F379 /* Images.xcassets */,
+				3D86B176187AA6DF00B7F379 /* TVForeshow.xcdatamodeld */,
+				3D86B16B187AA6DF00B7F379 /* Supporting Files */,
+			);
+			path = TVForeshow;
+			sourceTree = "<group>";
+		};
+		3D86B16B187AA6DF00B7F379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B16C187AA6DF00B7F379 /* TVForeshow-Info.plist */,
+				3D86B16D187AA6DF00B7F379 /* InfoPlist.strings */,
+				3D86B170187AA6DF00B7F379 /* main.m */,
+				3D86B172187AA6DF00B7F379 /* TVForeshow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D86B187187AA6DF00B7F379 /* TVForeshowTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B18D187AA6DF00B7F379 /* TVForeshowTests.m */,
+				3D86B188187AA6DF00B7F379 /* Supporting Files */,
+			);
+			path = TVForeshowTests;
+			sourceTree = "<group>";
+		};
+		3D86B188187AA6DF00B7F379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D86B189187AA6DF00B7F379 /* TVForeshowTests-Info.plist */,
+				3D86B18A187AA6DF00B7F379 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D86B15E187AA6DF00B7F379 /* TVForeshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D86B191187AA6DF00B7F379 /* Build configuration list for PBXNativeTarget "TVForeshow" */;
+			buildPhases = (
+				3D86B15B187AA6DF00B7F379 /* Sources */,
+				3D86B15C187AA6DF00B7F379 /* Frameworks */,
+				3D86B15D187AA6DF00B7F379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVForeshow;
+			productName = TVForeshow;
+			productReference = 3D86B15F187AA6DF00B7F379 /* TVForeshow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D86B17E187AA6DF00B7F379 /* TVForeshowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D86B194187AA6DF00B7F379 /* Build configuration list for PBXNativeTarget "TVForeshowTests" */;
+			buildPhases = (
+				3D86B17B187AA6DF00B7F379 /* Sources */,
+				3D86B17C187AA6DF00B7F379 /* Frameworks */,
+				3D86B17D187AA6DF00B7F379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D86B186187AA6DF00B7F379 /* PBXTargetDependency */,
+			);
+			name = TVForeshowTests;
+			productName = TVForeshowTests;
+			productReference = 3D86B17F187AA6DF00B7F379 /* TVForeshowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D86B157187AA6DF00B7F379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Xukai;
+				TargetAttributes = {
+					3D86B17E187AA6DF00B7F379 = {
+						TestTargetID = 3D86B15E187AA6DF00B7F379;
+					};
+				};
+			};
+			buildConfigurationList = 3D86B15A187AA6DF00B7F379 /* Build configuration list for PBXProject "TVForeshow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D86B156187AA6DF00B7F379;
+			productRefGroup = 3D86B160187AA6DF00B7F379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D86B15E187AA6DF00B7F379 /* TVForeshow */,
+				3D86B17E187AA6DF00B7F379 /* TVForeshowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D86B15D187AA6DF00B7F379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B16F187AA6DF00B7F379 /* InfoPlist.strings in Resources */,
+				3D86B17A187AA6DF00B7F379 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86B17D187AA6DF00B7F379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B18C187AA6DF00B7F379 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D86B15B187AA6DF00B7F379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B178187AA6DF00B7F379 /* TVForeshow.xcdatamodeld in Sources */,
+				3D86B175187AA6DF00B7F379 /* TVAppDelegate.m in Sources */,
+				3D86B171187AA6DF00B7F379 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86B17B187AA6DF00B7F379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86B18E187AA6DF00B7F379 /* TVForeshowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D86B186187AA6DF00B7F379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D86B15E187AA6DF00B7F379 /* TVForeshow */;
+			targetProxy = 3D86B185187AA6DF00B7F379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D86B16D187AA6DF00B7F379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D86B16E187AA6DF00B7F379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D86B18A187AA6DF00B7F379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D86B18B187AA6DF00B7F379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D86B18F187AA6DF00B7F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D86B190187AA6DF00B7F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D86B192187AA6DF00B7F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVForeshow/TVForeshow-Prefix.pch";
+				INFOPLIST_FILE = "TVForeshow/TVForeshow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D86B193187AA6DF00B7F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVForeshow/TVForeshow-Prefix.pch";
+				INFOPLIST_FILE = "TVForeshow/TVForeshow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D86B195187AA6DF00B7F379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVForeshow.app/TVForeshow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVForeshow/TVForeshow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TVForeshowTests/TVForeshowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D86B196187AA6DF00B7F379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVForeshow.app/TVForeshow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVForeshow/TVForeshow-Prefix.pch";
+				INFOPLIST_FILE = "TVForeshowTests/TVForeshowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D86B15A187AA6DF00B7F379 /* Build configuration list for PBXProject "TVForeshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D86B18F187AA6DF00B7F379 /* Debug */,
+				3D86B190187AA6DF00B7F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D86B191187AA6DF00B7F379 /* Build configuration list for PBXNativeTarget "TVForeshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D86B192187AA6DF00B7F379 /* Debug */,
+				3D86B193187AA6DF00B7F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D86B194187AA6DF00B7F379 /* Build configuration list for PBXNativeTarget "TVForeshowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D86B195187AA6DF00B7F379 /* Debug */,
+				3D86B196187AA6DF00B7F379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D86B176187AA6DF00B7F379 /* TVForeshow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D86B177187AA6DF00B7F379 /* TVForeshow.xcdatamodel */,
+			);
+			currentVersion = 3D86B177187AA6DF00B7F379 /* TVForeshow.xcdatamodel */;
+			path = TVForeshow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D86B157187AA6DF00B7F379 /* Project object */;
+}
